@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OKX OPS DASHBOARD · 2026/06/17</title>
+<title>OKX OPS DASHBOARD · 2026/06/18</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0;}
@@ -13,8 +13,10 @@ body{background:#0a0a0a;min-height:100vh;padding:0;}
 .logo{font-family:'Orbitron',monospace;font-size:15px;font-weight:700;color:#e8c87a;letter-spacing:2px;}
 .logo span{color:#f5a623;}
 .dbadge{font-size:11px;color:#c9a030;background:#1a1208;border:1px solid #4a3010;padding:4px 12px;border-radius:4px;}
-.fomc-box{background:#1a1208;border:2px solid #f5a623;border-radius:5px;padding:10px 14px;margin-bottom:13px;display:flex;gap:10px;align-items:flex-start;}
-.fomc-t{font-size:12px;color:#f5c842;line-height:1.6;font-weight:500;}
+.alert{background:#1a0808;border:1px solid #6a1a1a;border-radius:5px;padding:10px 14px;margin-bottom:13px;display:flex;gap:10px;align-items:flex-start;}
+.alert-t{font-size:12px;color:#f08080;line-height:1.6;font-weight:500;}
+.forward-box{background:#0a1a0a;border:1px solid #1a6a1a;border-radius:5px;padding:9px 13px;margin-bottom:13px;font-size:10px;color:#5abf70;line-height:1.7;}
+.forward-box b{color:#7adf90;}
 .stitle{font-size:9px;letter-spacing:3px;color:#7a6830;text-transform:uppercase;margin-bottom:8px;}
 .mc{background:#0f0e08;border:1px solid #2a2206;border-radius:5px;padding:10px 14px;margin-bottom:13px;}
 .bar-row{display:flex;justify-content:space-between;font-size:11px;margin-bottom:4px;}
@@ -65,74 +67,78 @@ hr.div{border:none;border-top:1px solid #1a1608;margin:5px 0;}
 <div class="dash">
   <div class="dh">
     <div class="logo">OKX <span>OPS</span> DASHBOARD</div>
-    <div class="dbadge">2026 / 06 / 17 · 早报</div>
+    <div class="dbadge">2026 / 06 / 18 · 早报</div>
   </div>
 
-  <div class="fomc-box">
-    <span style="font-size:16px;flex-shrink:0;">⚡</span>
-    <span class="fomc-t">今日美东时间下午2:00 FOMC公布决策+点阵图，随后Warsh首次新闻发布会！维持利率97.4%确定，关键在点阵图：若维持2026年降息窗口 → BTC目标$68,500-$70,000；若全年不降息/加息 → 回测$64,000。今年最重要FOMC，群内实时关注！</span>
+  <div class="alert">
+    <span style="color:#e05050;font-size:14px;flex-shrink:0;">⚠</span>
+    <span class="alert-t">FOMC昨日鹰派结局：9/18官员预测年内加息，PCE预期升至3.6%，CME加息概率升至60.7%（10月）；Warsh废除前向指引+点阵图仅130字；BTC跌向$63,000；Santiment：属"买预期卖事实"情绪性抛售，非基本面转变——明日伊朗停火正式签署是本周反转关键</span>
+</div>
+
+  <div class="forward-box">
+    📡 <b>明日（6月19日）最重要节点</b>：美伊"伊斯兰堡备忘录"14点MOU正式签署，霍尔木兹永久重开，Brent油价已跌至$78.96（5月+以来最大跌幅）。油价持续下跌 → 通胀降温 → 推翻鹰派点阵图逻辑 → BTC强力反弹！这是FOMC后最重要的宏观对冲信号。
   </div>
 
   <div class="stitle">今日多空参与对比</div>
-<div class="mc">
+  <div class="mc">
     <div class="bar-row"><span style="color:#4caf7a;">做多</span><span style="color:#7a6830;font-size:9px;">BTC-USDT 永续合约 · 多空账户比</span><span style="color:#e05050;">做空</span></div>
-    <div class="bar"><div class="bl" style="width:57%"></div><div class="br" style="width:43%"></div></div>
-    <div class="bar-v"><span style="color:#4caf7a;font-weight:500;">🟢 多单 57.3%</span><span style="color:#7a6830;font-size:9px;">今日</span><span style="color:#e05050;font-weight:500;">空单 42.7% 🔴</span></div>
+    <div class="bar"><div class="bl" style="width:58%"></div><div class="br" style="width:42%"></div></div>
+    <div class="bar-v"><span style="color:#4caf7a;font-weight:500;">🟢 多单 57.8%</span><span style="color:#7a6830;font-size:9px;">今日</span><span style="color:#e05050;font-weight:500;">空单 42.2% 🔴</span></div>
     <hr class="div">
-    <div class="bar"><div class="bl" style="width:54%;opacity:.4"></div><div class="br" style="width:46%;opacity:.4"></div></div>
-    <div class="bar-v"><span style="color:#4caf7a;opacity:.5;font-size:10px;">多单 54.3%</span><span style="color:#3a3218;font-size:9px;">昨日</span><span style="color:#e05050;opacity:.5;font-size:10px;">空单 45.7%</span></div>
-    <div class="bnote">多单较昨日回升 <span style="color:#4caf7a;">+3%</span>，FOMC前多头重新加仓；鲸鱼24小时撤出11,000+ BTC+神秘$2.03亿布局，市场在等Warsh · <span class="okx-badge">OKX 实时 API</span></div>
-</div>
+    <div class="bar"><div class="bl" style="width:57%;opacity:.4"></div><div class="br" style="width:43%;opacity:.4"></div></div>
+    <div class="bar-v"><span style="color:#4caf7a;opacity:.5;font-size:10px;">多单 57.3%</span><span style="color:#3a3218;font-size:9px;">昨日</span><span style="color:#e05050;opacity:.5;font-size:10px;">空单 42.7%</span></div>
+<div class="bnote">多单FOMC后仍稳定在57.8%（+0.5%），未出现恐慌性减仓——多头判断此次利空为情绪性而非基本面，在等待明日停火签署 · <span class="okx-badge">OKX 实时 API</span></div>
+  </div>
 
   <div class="g2">
     <div class="nc">
       <div class="nt g">🟢 利多消息</div>
-      <div class="ni grn"><b>鲸鱼撤出11,000+ BTC</b>24小时内从交易所撤出超11,000枚BTC，链上减少卖压信号，叠加神秘$2.03亿FOMC前布局（TheStreet）<span class="tag-us">美国</span></div>
-      <div class="ni grn"><b>多头回升+3%</b>OKX实时：多单从54.3%升至57.3%，FOMC前多头重新加仓，市场对Warsh偏鸽预期升温<span class="tag-us">美国</span></div>
-      <div class="ni grn"><b>稳定币资金回流主流币</b>Analytics Insight：此前停泊在稳定币的场外资金开始回流BTC/ETH，XRP/SOL同步上涨（Analytics Insight）<span class="tag-us">美国</span></div>
-      <div class="ni grn"><b>XRP六周连续ETF流入$1.44B</b>SOL突破$73，山寨轮动全面展开，风险偏好持续改善（Analytics Insight）<span class="tag-us">美国</span></div>
+      <div class="ni grn"><b>明日停火正式签署</b>伊斯兰堡14点MOU明日签署，Brent油价已跌至$78.96（连跌四日最大跌幅），通胀预期将实质逆转（TradingKey）<span class="tag-us">美国</span></div>
+      <div class="ni grn"><b>Warsh废点阵图=长期BTC利好</b>Galaxy Digital+Ark Invest：传统货币体系透明度下降，BTC规则透明稀缺性优势被放大（CoinSpeaker）<span class="tag-us">美国</span></div>
+      <div class="ni grn"><b>Santiment：情绪性抛售非基本面</b>FOMC后抛售是"买预期卖事实"经典反应，基本面未变，停火+ETF持续流入是反弹信号（CryptoTimes）<span class="tag-us">美国</span></div>
+      <div class="ni grn"><b>多单FOMC后稳住57.8%</b>OKX实时：未出现恐慌性减仓，多头认为此次利空是情绪性的，坚守仓位等待明日停火签署<span class="tag-us">美国</span></div>
     </div>
     <div class="nc">
       <div class="nt r">🔴 利空消息</div>
-      <div class="ni"><b>FOMC点阵图鹰派风险</b>若Warsh废除2026降息预期/暗示年内加息，BTC将回测$64,000，跌破则重新面临$60K压力<span class="tag-us">美国</span></div>
-      <div class="ni"><b>BTC仍在EMA全部压顶</b>20/50/100/200日EMA全部压顶，RSI仍低于40，技术面尚未确认趋势反转，需量价配合<span class="tag-us">美国</span></div>
-      <div class="ni"><b>神秘鲸鱼$2.03亿转移</b>FOMC前48小时，3,049枚BTC被分拆转移，身份未知，存在巨鲸出货或布局两种可能（TheStreet）<span class="tag-us">美国</span></div>
-<div class="ni"><b>停火仍存变数</b>前两次停火均完全回吐，本次MOU是否持久需观察后续执行，市场仍谨慎追高<span class="tag-us">美国</span></div>
+      <div class="ni"><b>点阵图鹰派：9/18预测年内加息</b>PCE预期升至3.6%，6名官员预测年内两次加息，CME加息概率升至60.7%（BlockchainReporter）<span class="tag-us">美国</span></div>
+      <div class="ni"><b>Warsh废除前向指引</b>声明仅130字（原300字），拒绝提交个人点阵图，市场失去Fed路径锚点，宏观不确定性上升<span class="tag-us">美国</span></div>
+<div class="ni"><b>BTC跌向$63,000</b>FOMC后BTC跌破$64,350支撑，测试$63,000，杠杆多单被清算，成交量放大<span class="tag-us">美国</span></div>
+      <div class="ni"><b>加息预期60.7%（10月）</b>CME FedWatch：加息概率大幅升至60.7%，高利率更长时间重新成为市场基准假设<span class="tag-us">美国</span></div>
     </div>
   </div>
 
   <div class="g3">
     <div class="cb">
       <div class="ct">今日行情参考因素</div>
-      <div class="fi"><span class="fn">01/</span><span>FOMC今日2PM ET：点阵图是唯一变量，鸽=目标$70K，鹰=回测$64K</span></div>
-      <div class="fi"><span class="fn">02/</span><span>多头+3%+鲸鱼撤币=市场在押注Warsh偏鸽，FOMC前已提前布局</span></div>
-      <div class="fi"><span class="fn">03/</span><span>停火→油价$87→通胀降温→Warsh有充分理由维持降息窗口</span></div>
-      <div class="fi"><span class="fn">04/</span><span>$66,000-$67,000是今日关键阻力，突破需FOMC鸽派信号配合放量</span></div>
-      <div class="fi"><span class="fn">05/</span><span>稳定币资金+XRP/SOL轮动=场外资金回流信号，风险偏好全面修复</span></div>
-      <div class="fi"><span class="fn">06/</span><span>Warsh新闻发布会措辞（非决策本身）是今日最重要的短期价格驱动</span></div>
+      <div class="fi"><span class="fn">01/</span><span>明日停火签署+油价$78.96：通胀逆转将直接推翻鹰派点阵图逻辑</span></div>
+      <div class="fi"><span class="fn">02/</span><span>$63K是今日关键支撑，守住则情绪修复，失守则测试$61K前低</span></div>
+      <div class="fi"><span class="fn">03/</span><span>Warsh废点阵图短痛长利：宏观不确定性短期压制，长期放大BTC稀缺叙事</span></div>
+      <div class="fi"><span class="fn">04/</span><span>多单57.8%稳住=多头不认为基本面改变，反弹动能仍在等待触发</span></div>
+      <div class="fi"><span class="fn">05/</span><span>Santiment"买预期卖事实"：历史上FOMC后抛售结束即是最佳入场窗口</span></div>
+      <div class="fi"><span class="fn">06/</span><span>关注ETF今日流向：若继续净流入则底部确认信号更强，否则谨慎追多</span></div>
     </div>
     <div class="cb">
       <div class="ct">宏观动向</div>
-      <div class="mi grn"><b>FOMC今日2PM ET决策</b>Warsh首次主持，维持97.4%确定，点阵图和新闻发布会是真正的市场引爆点</div>
-      <div class="mi grn"><b>停火→油价$87</b>Brent油价从$115跌至$87，通胀预期实质缓解，为Warsh鸽派提供充分空间</div>
-<div class="mi grn"><b>鲸鱼$2.03亿FOMC前布局</b>3,049枚BTC被转移至两个新地址，链上显示大机构FOMC前已完成布局</div>
-      <div class="mi red"><b>Warsh鹰派风险</b>Warsh此前批评Fed过于宽松，若点阵图废除2026降息预期将是最大意外利空</div>
-      <div class="mi grn"><b>稳定币回流启动</b>此前大量资金停泊在USDT/USDC避险，停火+FOMC前已开始主动回流BTC/ETH</div>
-      <div class="mi red"><b>BOJ加息威胁</b>日银鹰派立场未解除，日元套利交易平仓是全球最大潜在流动性黑天鹅</div>
+<div class="mi red"><b>FOMC鹰派结局</b>9/18官员预测年内加息，PCE预期3.6%，CME加息概率60.7%，Warsh废除前向指引</div>
+      <div class="mi red"><b>Warsh·130字声明</b>彻底废除前向指引，拒绝提交个人点阵图，Fed透明度大幅下降，市场进入高波动区间</div>
+      <div class="mi grn"><b>伊斯兰堡MOU明日签署</b>14点草案已公开，霍尔木兹永久重开，Brent油价连跌四日至$78.96，通胀预期正在逆转</div>
+      <div class="mi grn"><b>油价$78.96跌破$80</b>4个月来首次跌破$80，正在实质性推翻Fed鹰派点阵图的通胀假设</div>
+      <div class="mi red"><b>BOJ加息风险仍在</b>日银鹰派立场未变，日元套利平仓是全球最大潜在流动性黑天鹅</div>
+      <div class="mi grn"><b>Santiment：情绪性抛售</b>FOMC后抛售为经典"卖事实"，基本面（停火+ETF+机构买入）未改变，反弹窗口临近</div>
     </div>
     <div class="cb">
       <div class="ct">华尔街动向</div>
-      <div class="mi grn"><b>鲸鱼撤出11,000 BTC</b>24小时交易所净流出11,000+枚，历史上此信号多出现在底部反弹前，减少即时卖压</div>
-      <div class="mi grn"><b>XRP ETF六周$1.44B</b>XRP现货ETF连续六周净流入，Hyperliquid +9.47%，山寨轮动全面展开</div>
-      <div class="mi grn"><b>Strategy 846,842 BTC</b>持仓持续增加，Saylor确认"三条件"：买入+ETF流入+油价下跌均已满足</div>
-      <div class="mi grn"><b>Standard Chartered确认底部</b>$59K周期低点已确立，ETH将跑赢BTC，降息路径恢复后目标$100K</div>
-      <div class="mi"><b>Scaramucci·7月目标</b>Scaramucci公布BTC 7月目标价，FOMC后将是最关键的短期方向确认窗口</div>
-      <div class="mi red"><b>技术面待确认</b>需收复$67,000并放量站稳才能确认趋势反转，单日反弹不足以判断底部</div>
+      <div class="mi red"><b>点阵图鹰派震惊市场</b>9/18预测年内加息，完全逆转3月份点阵图的降息预期，为市场最坏情景</div>
+      <div class="mi grn"><b>Galaxy Digital+Ark Invest</b>Warsh废点阵图长期看涨BTC：传统货币透明度下降→BTC规则透明稀缺性价值放大</div>
+      <div class="mi grn"><b>TradingKey：油价是关键反制</b>停火签署→油价持续下跌→通胀降温→9月前可能推翻鹰派加息路径</div>
+      <div class="mi red"><b>BTC跌向$63K</b>FOMC后$64,350支撑失守，杠杆多单被清算，短期趋势转向谨慎</div>
+      <div class="mi grn"><b>Strategy 846,842 BTC</b>持仓不变，Saylor不会因FOMC鹰派改变长期策略，机构底仓坚实</div>
+<div class="mi grn"><b>Standard Chartered：$59K底部仍有效</b>FOMC鹰派不改变周期底部判断，停火签署后目标$70K-$80K</div>
     </div>
   </div>
 
   <div class="stitle">社群提醒 · 今日活动</div>
-<div class="remg">
+  <div class="remg">
     <div class="remb">
       <div class="ric">🧧</div>
       <div class="rtt">今日晒单</div>
@@ -158,7 +164,7 @@ hr.div{border:none;border-top:1px solid #1a1608;margin:5px 0;}
     </div>
   </div>
 
-  <div class="ft">仅供参考，不构成投资建议 · 🇺🇸 BlockchainReporter / TheStreet / Analytics Insight / TradingKey / CryptoPotato · 🇨🇳 BlockBeats / 财联社 · 多空数据：<span>OKX 实时 API · 今日 57.3% / 42.7%</span> · 2026/06/17</div>
+  <div class="ft">仅供参考，不构成投资建议 · 🇺🇸 BlockchainReporter / CryptoTimes / CoinSpeaker / TradingKey / CryptoTimes · 🇨🇳 BlockBeats / 财联社 · 多空数据：<span>OKX 实时 API · 今日 57.8% / 42.2%</span> · 2026/06/18</div>
 </div>
 </body>
 </html>
